@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>脱ヒューマンエイジ</title>
+    <meta name="description" content="脱ヒューマンエイジ">
+    <!--
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@misw_info">
+    <meta property="og:title" content="MIS.W C95特設サイト">
+    <meta property="og:description" content="冬コミにMIS.Wが参戦!">
+    <meta property="og:image:src" content="https://event.misw.jp/c95/image/logo.png">
+-->
+    <!--    <link rel="icon" href="image/misw_logo.ico">-->
+    <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animation.css">
+</head>
+
+<body>
+    <div id="play-button">
+        <div class="play-button_circle"></div>
+        <svg>
+            <filter id="wavy">
+                <feTurbulence x="0" y="0" baseFrequency="0.009" numOctaves="25" seed="2">
+                    <animate attributeName="baseFrequency" dur="30s" values="0.001;0.06;0.001" repeatCount="indefinite">
+                    </animate>
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" scale="25">
+                </feDisplacementMap>
+            </filter>
+        </svg>
+        <i class="fas fa-play-circle" onClick="sound()"></i>
+        <h1 class="play-button_name">Observation</h1>
+    </div>
+
+    <audio id="sound-file" preload="auto">
+        <source src="%E8%84%B1%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%A8%E3%82%A4%E3%82%B8.wav" type="audio/wav">
+    </audio>
+
+    <script>
+        function sound() {
+            document.getElementById('sound-file').play();
+            console.log(1);
+        }
+
+    </script>
+</body>
+
+</html>
