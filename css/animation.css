@@ -338,6 +338,10 @@
 }
 
 @keyframes scene2_op-img2 {
+    0 {
+        transform: rotate(20deg) translateX(20px) scale(1);
+    }
+
     100% {
         transform: rotate(30deg) translateX(20px) scale(1);
     }
