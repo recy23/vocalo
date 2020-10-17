@@ -131,8 +131,8 @@
     <script>
         function start() {
             const music = document.getElementById('sound-file')
+            music.play();
             if (music.readyState === 4) {
-                music.play();
                 var css = document.createElement('link');
                 css.setAttribute('rel', 'stylesheet');
                 css.setAttribute('type', 'text/css');
@@ -140,5 +140,8 @@
                 document.getElementsByTagName('head')[0].appendChild(css);
             }
         }
+
     </script>
-</body></html>
+</body>
+
+</html>
