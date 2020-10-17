@@ -132,13 +132,11 @@
         function start() {
             const music = document.getElementById('sound-file')
             music.play();
-            if (music.readyState === 4) {
-                var css = document.createElement('link');
-                css.setAttribute('rel', 'stylesheet');
-                css.setAttribute('type', 'text/css');
-                css.setAttribute('href', './css/animation.css');
-                document.getElementsByTagName('head')[0].appendChild(css);
-            }
+            var css = document.createElement('link');
+            css.setAttribute('rel', 'stylesheet');
+            css.setAttribute('type', 'text/css');
+            css.setAttribute('href', './css/animation.css');
+            document.getElementsByTagName('head')[0].appendChild(css);
         }
 
     </script>
