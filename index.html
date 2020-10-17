@@ -19,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/animation.css">
 </head>
 
 <body>
@@ -35,7 +34,7 @@
                 </feDisplacementMap>
             </filter>
         </svg>
-        <i class="fas fa-play-circle" onClick="sound()"></i>
+        <i class="fas fa-play-circle" onClick="start()"></i>
         <h1 class="play-button_name">Observation</h1>
     </div>
 
@@ -43,13 +42,100 @@
         <source src="%E8%84%B1%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%A8%E3%82%A4%E3%82%B8.wav" type="audio/wav">
     </audio>
 
+    <div style="scene1">
+        <div class="cartain_down1"></div>
+        <div class="cartain_down2"></div>
+        <div class="scene1_circle_container">
+            <div class="scene1_cirlce1"></div>
+            <div class="scene1_cirlce2"></div>
+        </div>
+        <div class="scene1_line1"></div>
+        <div class="scene1_line2"></div>
+        <div class="scene1_txt1">
+            <div class="scene1_rect1"></div>
+            <p class="scene1_txt_music">
+                <span>m</span>
+                <span>u</span>
+                <span>s</span>
+                <span>i</span>
+                <span>c</span>
+                <sapan>　</sapan>
+                <span>/</span>
+                <span>え</span>
+                <span>す</span>
+                <span>も</span>
+                <span>と</span>
+            </p>
+        </div>
+        <div class="scene1_txt2">
+            <p class="scene1_txt_feat">
+                <span>f</span>
+                <span>e</span>
+                <span>a</span>
+                <span>t</span>
+                <sapan>　</sapan>
+                <span>/</span>
+                <span>初</span>
+                <span>音</span>
+                <span>ミ</span>
+                <span>ク</span>
+            </p>
+            <div class="scene1_rect2"></div>
+        </div>
+        <div class="scene1_txt3">
+            <div class="scene1_rect3"></div>
+            <p class="scene1_txt_illust">
+                <span>i</span>
+                <span>l</span>
+                <span>l</span>
+                <span>u</span>
+                <span>s</span>
+                <span>t</span>
+                <sapan>　</sapan>
+                <span>/</span>
+                <span>パ</span>
+                <span>セ</span>
+                <span>リ</span>
+            </p>
+        </div>
+        <div class="scene1_txt4">
+            <p class="scene1_txt_movie">
+                <span>m</span>
+                <span>o</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <sapan>　</sapan>
+                <span>/</span>
+                <span>れ</span>
+                <span>し</span>
+                <span>い</span>
+            </p>
+            <div class="scene1_rect4"></div>
+        </div>
+        <div class="scene1_txt5">
+            <p>decaying……</p>
+        </div>
+    </div>
+
+    <div class="scene2">
+        <div class="scene2_op">
+            <div>
+                <img src="img/%E3%83%A1%E3%82%A4%E3%83%B3%E7%AB%8B%E3%81%A1%E7%B5%B5%E5%85%89%E7%84%A1%E3%81%97.png" class="scene2_op-img" alt="">
+            </div>
+            <h2 class="scene2_op-name">脱ヒューマンエイジ</h2>
+        </div>
+        <div class="scene2_op-line"></div>
+    </div>
+
     <script>
-        function sound() {
+        function start() {
             document.getElementById('sound-file').play();
-            console.log(1);
+            var css = document.createElement('link');
+            css.setAttribute('rel', 'stylesheet');
+            css.setAttribute('type', 'text/css');
+            css.setAttribute('href', './css/animation.css');
+            document.getElementsByTagName('head')[0].appendChild(css);
         }
-
     </script>
-</body>
-
-</html>
+</body></html>

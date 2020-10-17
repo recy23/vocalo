@@ -4,6 +4,8 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    font-family: a-otf-futo-min-a101-pr6n, 'Cinzel', serif;
+    font-style: normal;
 }
 
 #play-button {
@@ -52,7 +54,6 @@ svg {
     position: absolute;
     color: white;
     opacity: .5;
-    font-family: 'Cinzel', serif;
     letter-spacing: 0px;
     text-align: center;
     transition: 1s;
@@ -61,4 +62,242 @@ svg {
 
 .fa-play-circle:hover ~ .play-button_name {
     letter-spacing: 8px;
+}
+
+.scene1,
+.scene2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.scene2_op {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.cartain_down1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    background: rgb(48 4 25);
+    z-index: 1;
+    transform: translateY(-100%);
+}
+
+.cartain_down2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    background: rgb(48 4 25);
+    z-index: 1;
+    transform: translateY(100%);
+}
+
+.scene1_txt1,
+.scene1_txt2,
+.scene1_txt3,
+.scene1_txt4 {
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 0px;
+    z-index: 2;
+    writing-mode: vertical-rl;
+    letter-spacing: 3px;
+    cursor: default;
+}
+
+.scene1_txt1 span,
+.scene1_txt2 span,
+.scene1_txt3 span,
+.scene1_txt4 span {
+    display: inline-block;
+    font-size: 32px;
+    opacity: .8;
+}
+
+.scene1_txt1,
+.scene1_txt3 {
+    top: 15%;
+    left: 60%;
+}
+
+.scene1_txt2,
+.scene1_txt4 {
+    bottom: 15%;
+    left: 35%;
+}
+
+.scene1_txt5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.scene1_txt5 p {
+    color: white;
+    opacity: 0;
+    transform: translateY(-32px);
+}
+
+.scene1_rect1,
+.scene1_rect3 {
+    position: relative;
+    left: 2.5px;
+    width: 36px;
+    height: 36px;
+    background: white;
+    margin-bottom: 16px;
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, .3);
+    transform: translateY(86vh);
+}
+
+.scene1_rect2,
+.scene1_rect4 {
+    position: relative;
+    left: 2.5px;
+    width: 36px;
+    height: 36px;
+    background: white;
+    margin-top: 16px;
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, .3);
+    transform: translateY(-86vh);
+}
+
+.scene1_txt_music span,
+.scene1_txt_illust span {
+    transform: translateY(24px);
+    opacity: 0;
+}
+
+.scene1_txt_feat span,
+.scene1_txt_movie span {
+    transform: translateY(-24px);
+    opacity: 0;
+}
+
+.scene1_circle_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.scene1_cirlce1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    z-index: 2;
+    background: radial-gradient(circle, rgb(77, 8, 8) 0%, rgba(32, 1, 34, 1) 100%);
+}
+
+.scene1_cirlce2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    border: solid 3px red;
+    opacity: 0;
+    z-index: 2;
+}
+
+.scene1_line1 {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    width: 100vw;
+    height: 3px;
+    background: #7b0000;
+    z-index: 3;
+    transform: translateX(-100%);
+    box-shadow: 0 0 15px 3px #7b0000;
+    filter: blur(1px);
+}
+
+.scene1_line2 {
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    width: 100vw;
+    height: 3px;
+    background: #7b0000;
+    z-index: 3;
+    transform: translateX(100%);
+    box-shadow: 0 0 15px 3px #7b0000;
+    filter: blur(1px);
+}
+
+.scene2_op-img {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    transform: rotate(20deg) translateX(20px) scale(2.5);
+    opacity: 0;
+    z-index: 4;
+    filter: brightness(0%) blur(2px);
+}
+
+.scene2_op-name {
+    position: absolute;
+    opacity: 1;
+    z-index: 4;
+    color: #c6c6c6;
+    font-size: 36px;
+    letter-spacing: 10px;
+    transform: scale(2.5);
+    opacity: 0;
+    text-shadow: 0 0 3px rgba(255, 255, 255, .8);
+}
+
+.scene2_op-name::first-letter {
+    font-size: 64px;
+    color: #a50a0a;
+    text-shadow: 0 0 4px #a50a0a;
+}
+
+.scene2_op-line {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    width: 280px;
+    height: 2px;
+    transform: translate(-35%, -890%) scaleX(0);
+    transform-origin: left;
+    background: #a50a0a;
+    z-index: 4;
+}
+
+@keyframes blur {
+    0% {
+        filter: blur(.1px);
+    }
+
+    100% {
+        filter: blur(1px);
+    }
 }
