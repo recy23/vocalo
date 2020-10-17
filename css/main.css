@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    position: relative;
     background: rgb(111, 0, 0);
     background: radial-gradient(circle, rgb(77, 8, 8) 0%, rgba(32, 1, 34, 1) 100%);
     height: 100vh;
