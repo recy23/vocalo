@@ -8,19 +8,19 @@
 }
 
 .scene1_rect1 {
-    animation: Transform_y 0.75s 1.05s forwards, scene1_rect_red .8s 2.7s forwards;
+    animation: Transform_y 0.75s 1.0s forwards, scene1_rect_red .8s 2.7s forwards;
 }
 
 .scene1_rect2 {
-    animation: Transform_y 0.75s 1.8s forwards, scene1_rect_red2 .8s 2.7s forwards;
+    animation: Transform_y 0.75s 1.75s forwards, scene1_rect_red2 .8s 2.7s forwards;
 }
 
 .scene1_rect3 {
-    animation: Transform_y 0.75s 4s forwards, scene1_rect_red3 .8s 5.7s forwards;
+    animation: Transform_y 0.75s 3.95s forwards, scene1_rect_red3 .8s 5.7s forwards;
 }
 
 .scene1_rect4 {
-    animation: Transform_y 0.75s 4.75s forwards, scene1_rect_red4 .8s 5.7s forwards;
+    animation: Transform_y 0.75s 4.70s forwards, scene1_rect_red4 .8s 5.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(11) {
@@ -208,6 +208,78 @@
     animation: scene2_op-line 12s linear 7.2s forwards;
 }
 
+.scene2_op-wave {
+    animation: scene2_op-wave .1s linear 6.30s forwards;
+}
+
+.scene2_op-wave2 {
+    animation: scene2_op-wave .1s linear 6.30s forwards;
+}
+
+.scene2_effect1 > div:nth-child(1) {
+    animation: scene2_effect-1 .3s 11.7s forwards;
+}
+
+.scene2_effect1 > div:nth-child(2) {
+    animation: scene2_effect-2 .3s 11.7s forwards;
+}
+
+.scene2_effect1 > div:nth-child(3) {
+    animation: scene2_effect-3 .3s 11.7s forwards;
+}
+
+.scene2_effect1 > div:nth-child(4) {
+    animation: scene2_effect-4 .3s 11.7s forwards;
+}
+
+.scene2_effect2 > div:nth-child(1) {
+    animation: scene2_effect-1 .3s 12s forwards;
+}
+
+.scene2_effect2 > div:nth-child(2) {
+    animation: scene2_effect-2 .3s 12s forwards;
+}
+
+.scene2_effect2 > div:nth-child(3) {
+    animation: scene2_effect-3 .3s 12s forwards;
+}
+
+.scene2_effect2 > div:nth-child(4) {
+    animation: scene2_effect-4 .3s 12s forwards;
+}
+
+.scene2_effect3 > div:nth-child(1) {
+    animation: scene2_effect-1 .3s 12.3s forwards;
+}
+
+.scene2_effect3 > div:nth-child(2) {
+    animation: scene2_effect-2 .3s 12.3s forwards;
+}
+
+.scene2_effect3 > div:nth-child(3) {
+    animation: scene2_effect-3 .3s 12.3s forwards;
+}
+
+.scene2_effect3 > div:nth-child(4) {
+    animation: scene2_effect-4 .3s 12.3s forwards;
+}
+
+.scene2_effect4 > div:nth-child(1) {
+    animation: scene2_effect-1 .3s 12.8s forwards;
+}
+
+.scene2_effect4 > div:nth-child(2) {
+    animation: scene2_effect-2 .3s 12.8s forwards;
+}
+
+.scene2_effect4 > div:nth-child(3) {
+    animation: scene2_effect-3 .3s 12.8s forwards;
+}
+
+.scene2_effect4 > div:nth-child(4) {
+    animation: scene2_effect-4 .3s 12.8s forwards;
+}
+
 @keyframes Fade_out {
     0% {
         opacity: 1;
@@ -359,5 +431,35 @@
 @keyframes scene2_op-line {
     100% {
         transform: translate(-35%, -890%) scaleX(1);
+    }
+}
+
+@keyframes scene2_op-wave {
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes scene2_effect-1 {
+    100% {
+        transform: translate(-50%, 0%) scale(0, 1);
+    }
+}
+
+@keyframes scene2_effect-2 {
+    100% {
+        transform: translate(0%, -50%) scale(1, 0);
+    }
+}
+
+@keyframes scene2_effect-3 {
+    100% {
+        transform: translate(-50%, 0%) scale(0, 1);
+    }
+}
+
+@keyframes scene2_effect-4 {
+    100% {
+        transform: translate(0%, -50%) scale(1, 0);
     }
 }
