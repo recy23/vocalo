@@ -493,13 +493,15 @@ svg {
     width: 100vw;
     max-width: 400px;
     filter: brightness(90%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, calc(-100% - 50vh))rotate(-5deg);
 }
 
 .scene4_txt1 {
     position: absolute;
     background: #d9d8d8;
     width: 300px;
+    transform: scaleX(0);
+    transform-origin: right;
     text-align: center;
     padding: 10px 20px;
 }

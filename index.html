@@ -19,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="prefetch" href="./%E8%84%B1%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%A8%E3%82%A4%E3%82%B8.wav">
 </head>
 
 <body>
@@ -178,11 +177,18 @@
         function start() {
             const music = document.getElementById('sound-file')
             music.play();
-            var css = document.createElement('link');
-            css.setAttribute('rel', 'stylesheet');
-            css.setAttribute('type', 'text/css');
-            css.setAttribute('href', './css/animation.css');
-            document.getElementsByTagName('head')[0].appendChild(css);
+            music.volume = 0;
+
+            setTimeout(() => {
+                music.volume = 1;
+                music.currentTime = 0;
+
+                var css = document.createElement('link');
+                css.setAttribute('rel', 'stylesheet');
+                css.setAttribute('type', 'text/css');
+                css.setAttribute('href', './css/animation.css');
+                document.getElementsByTagName('head')[0].appendChild(css);
+            }, 500);
         }
 
     </script>

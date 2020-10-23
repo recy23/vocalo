@@ -300,6 +300,15 @@
     animation: slideIn .3s 19s forwards;
 }
 
+.scene4_txt1 {
+    animation: scale_x1 .3s 19.6 forwards;
+}
+
+.scene4_apple img {
+    animation: apple_move 2s 19.3s forwards;
+}
+
+
 @keyframes Fade_out {
     0% {
         opacity: 1;
@@ -499,5 +508,25 @@
 @keyframes slideIn {
     100% {
         top: 0;
+    }
+}
+
+@keyframes scale_x1 {
+    100% {
+        transform: scaleX(2);
+    }
+}
+
+@keyframes apple_move {
+    30% {
+        transform: translate(-50%, calc(-50% - 10vh)) rotate(-25deg);
+    }
+
+    50% {
+        transform: translate(-50%, calc(-50% + 10vh)) rotate(-25deg);
+    }
+
+    100% {
+        transform: translate(-50%, calc(100% + 50vh))rotate(-45deg);
     }
 }
