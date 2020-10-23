@@ -280,6 +280,26 @@
     animation: scene2_effect-4 .3s 12.8s forwards;
 }
 
+.scene3_cartain1 {
+    animation: scene3_cartain1 .3s 18.1s forwards;
+}
+
+.scene3_cartain4 {
+    animation: scene3_cartain1 .3s 18.4s forwards;
+}
+
+.scene3_cartain2 {
+    animation: scene3_cartain2 .3s 18.7s forwards;
+}
+
+.scene3_cartain3 {
+    animation: scene3_cartain2 .3s 19s forwards;
+}
+
+.scene4 {
+    animation: slideIn .3s 19s forwards;
+}
+
 @keyframes Fade_out {
     0% {
         opacity: 1;
@@ -461,5 +481,23 @@
 @keyframes scene2_effect-4 {
     100% {
         transform: translate(0%, -50%) scale(1, 0);
+    }
+}
+
+@keyframes scene3_cartain1 {
+    100% {
+        transform: skewX(-30deg) translateY(0);
+    }
+}
+
+@keyframes scene3_cartain2 {
+    100% {
+        transform: skewX(23deg) translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    100% {
+        top: 0;
     }
 }

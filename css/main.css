@@ -70,7 +70,9 @@ svg {
 }
 
 .scene1,
-.scene2 {
+.scene2,
+.scene3,
+.scene4 {
     position: absolute;
     top: 0;
     left: 0;
@@ -419,6 +421,97 @@ svg {
     width: 100%;
     transform-origin: right;
     transform: translate(0%, -50%) scale(0, 1);
+}
+
+.scene3 {
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.scene3_cartain1 {
+    position: absolute;
+    transform-origin: top left;
+    width: 50vw;
+    height: 100vh;
+    background: rgb(41, 4, 22);
+    transform: skewX(-30deg) translateY(-100%);
+    z-index: 5;
+}
+
+.scene3_cartain2 {
+    position: absolute;
+    transform-origin: top left;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(41, 4, 22);
+    transform: skewX(23deg) translateY(-100%);
+    z-index: 5;
+}
+
+.scene3_cartain3 {
+    position: absolute;
+    transform-origin: bottom right;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(41, 4, 22);
+    transform: skewX(23deg) translateY(100%);
+    z-index: 5;
+}
+
+.scene3_cartain4 {
+    position: absolute;
+    transform-origin: bottom right;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background: rgb(41, 4, 22);
+    transform: skewX(-30deg) translateY(100%);
+    z-index: 5;
+}
+
+.scene4 {
+    display: flex;
+    position: absolute;
+    top: -100%;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(46, 3, 11);
+    pointer-events: none;
+    z-index: 6;
+}
+
+.scene4_apple img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    max-width: 400px;
+    filter: brightness(90%);
+    transform: translate(-50%, -50%);
+}
+
+.scene4_txt1 {
+    position: absolute;
+    background: #d9d8d8;
+    width: 300px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.scene4_txt1 p {
+    color: rgb(46, 3, 11);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.scene4_txt1 p span {
+    display: inline-block;
 }
 
 @keyframes blur {
