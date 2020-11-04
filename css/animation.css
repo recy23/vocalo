@@ -8,11 +8,11 @@
 }
 
 .scene1_rect1 {
-    animation: Transform_y 0.75s 1.0s forwards, scene1_rect_red .8s 2.7s forwards;
+    animation: Transform_y 0.75s 0.97s forwards, scene1_rect_red .8s 2.7s forwards;
 }
 
 .scene1_rect2 {
-    animation: Transform_y 0.75s 1.75s forwards, scene1_rect_red2 .8s 2.7s forwards;
+    animation: Transform_y 0.75s 1.72s forwards, scene1_rect_red2 .8s 2.7s forwards;
 }
 
 .scene1_rect3 {
@@ -24,79 +24,79 @@
 }
 
 .scene1_txt_music span:nth-child(11) {
-    animation: Transform_y 0.1s 1.15s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.14s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(10) {
-    animation: Transform_y 0.1s 1.2s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.19s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(9) {
-    animation: Transform_y 0.1s 1.25s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.24s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(8) {
-    animation: Transform_y 0.1s 1.3s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.29s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(7) {
-    animation: Transform_y 0.1s 1.35s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.34s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(5) {
-    animation: Transform_y 0.1s 1.40s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.39s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(4) {
-    animation: Transform_y 0.1s 1.45s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.44s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(3) {
-    animation: Transform_y 0.1s 1.50s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.49s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(2) {
-    animation: Transform_y 0.1s 1.55s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.54s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_music span:nth-child(1) {
-    animation: Transform_y 0.1s 1.6s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.59s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(1) {
-    animation: Transform_y 0.1s 1.9s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.85s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(2) {
-    animation: Transform_y 0.1s 1.95s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.90s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(3) {
-    animation: Transform_y 0.1s 2.0s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 1.95s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(4) {
-    animation: Transform_y 0.1s 2.05s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 2s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(6) {
-    animation: Transform_y 0.1s 2.1s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 2.05s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(7) {
-    animation: Transform_y 0.1s 2.15s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 2.1s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(8) {
-    animation: Transform_y 0.1s 2.2s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 2.15s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(9) {
-    animation: Transform_y 0.1s 2.25s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
+    animation: Transform_y 0.1s 2.20s forwards, scene1_txt_bottom-left .9s 2.7s forwards;
 }
 
 .scene1_txt_feat span:nth-child(10) {
-    animation: Transform_y 0.1s 2.3s forwards, scene1_txt_top-right .9s 2.7s forwards;
+    animation: Transform_y 0.1s 2.25s forwards, scene1_txt_top-right .9s 2.7s forwards;
 }
 
 .scene1_cirlce1 {
@@ -196,12 +196,12 @@
 }
 
 .scene2_op-img {
-    animation: scene2_op-img .2s cubic-bezier(0.25, 0.1, 0.91, 1.89) 6.9s forwards,
+    animation: scene2_op-img .2s cubic-bezier(0.25, 0.1, 0.91, 1.89) 6.8s forwards,
         scene2_op-img2 12s linear 7.2s forwards;
 }
 
 .scene2_op-name {
-    animation: scene2_op-name .2s cubic-bezier(0.25, 0.1, 0.91, 1.89) 6.9s forwards;
+    animation: scene2_op-name .2s cubic-bezier(0.25, 0.1, 0.91, 1.89) 6.8s forwards;
 }
 
 .scene2_op-line {
@@ -214,6 +214,10 @@
 
 .scene2_op-wave2 {
     animation: scene2_op-wave .1s linear 6.30s forwards;
+}
+
+.scene2_op-bg {
+    animation: scene2_op-bg .1s step-start 6.9s forwards;
 }
 
 .scene2_effect1 > div:nth-child(1) {
@@ -297,236 +301,1254 @@
 }
 
 .scene4 {
-    animation: slideIn .3s 19s forwards;
-}
-
-.scene4_txt1 {
-    animation: scale_x1 .3s 19.6 forwards;
+    animation: slideIn_y .3s 19s forwards;
 }
 
 .scene4_apple img {
-    animation: apple_move 2s 19.3s forwards;
+    animation: apple_move 3.5s linear 19.5s forwards;
+}
+
+.scene4_txt1 {
+    animation: scene4_txt1 .5s 19.6s forwards;
+}
+
+.scene4_txt1 p {
+    animation: scene4_txt2 .4s 19.9s forwards;
+}
+
+.scene4_txt2 {
+    animation: scene4_txt1 .5s 20.9s forwards;
+}
+
+.scene4_txt2 p {
+    animation: scene4_txt2 .4s 21.2s forwards;
+}
+
+.scene5 {
+    animation: slideIn_x .3s 22.6s forwards;
+}
+
+.scene5_picture img {
+    animation: scene5_picture 2s ease-out 22.8s forwards, blur_out .9s 26.2s forwards;
+}
+
+.scene5_txt1 {
+    animation: slideIn_x-trs 1.2s 22.8s forwards, scene5_txt1 .5s 24.2s forwards;
+}
+
+.scene5_rect1 {
+    animation: slideIn_x-trs 1.5s 22.8s forwards, scene5_txt1 .5s 24.2s forwards;
+}
+
+.scene5_txt2 {
+    animation: rotateY_0 .5s 24.3s forwards, blur_out .9s 26.2s forwards;
+}
+
+.scene5_rect2 {
+    animation: rotateY_0 .5s 24.3s forwards, blur_out .9s 26.2s forwards;
+}
+
+.scene6 {
+    animation: Fade_in .3s 19.2s forwards;
+}
+
+.scene6to7 {
+    animation: scene-trs-beat 1.2s 25.9s forwards;
+}
+
+.scene6to7-sub {
+    animation: scene-trs-beat-sub 1.2s 25.9s forwards;
+}
+
+.scene7_cartain1 {
+    animation: Transform_y .3s 26.7s forwards, blur_out 1.5s 29.2s forwards;
+}
+
+.scene7_cartain2 {
+    animation: scene7_cartain2 .3s 26.7s forwards, blur_out 1.5s 29.2s forwards;
+}
+
+.scene7_cartain2 p:nth-child(1) {
+    animation: scene7_txt1 .5s 27.3s forwards;
+}
+
+.scene7_txt2 span:nth-child(1) {
+    animation: scene7_txt2-1 .2s 27.7s forwards;
+}
+
+.scene7_txt2 span:nth-child(2) {
+    animation: scene7_txt2-2 .2s 27.9s forwards;
+}
+
+.scene7_txt2 span:nth-child(3) {
+    animation: scene7_txt2-1 .2s 28.1s forwards;
+}
+
+.scene7_txt2 span:nth-child(4) {
+    animation: scene7_txt2-2 .2s 28.3s forwards;
+}
+
+.scene7_txt2 span:nth-child(5) {
+    animation: scene7_txt2-1 .2s 28.5s forwards;
+}
+
+.scene7_txt2 span:nth-child(6) {
+    animation: scene7_txt2-2 .2s 28.7s forwards;
+}
+
+.scene7_txt2 span:nth-child(7) {
+    animation: scene7_txt2-1 .2s 28.9s forwards;
+}
+
+.scene7_txt2 span:nth-child(8) {
+    animation: scene7_txt2-2 .2s 29.1s forwards;
+}
+
+.scene7_txt3 span:nth-child(1) {
+    animation: scene7_txt3-1 .8s ease-in 27.6s forwards;
+}
+
+.scene7_txt3 span:nth-child(2) {
+    animation: scene7_txt3-2 .8s ease-in 28.3s forwards;
+}
+
+.scene7_txt3 span:nth-child(3) {
+    animation: scene7_txt3-3 .8s ease-in 28s forwards;
+}
+
+.scene7_txt3 span:nth-child(4) {
+    animation: scene7_txt3-4 .8s ease-in 28.6s forwards;
+}
+
+.scene7to8 {
+    animation: scene-trs-beat 1.2s 28.9s forwards;
+}
+
+.scene7to8-sub {
+    animation: scene-trs-beat-sub 1.2s 28.9s forwards;
 }
 
 
-@keyframes Fade_out {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-        display: none;
-    }
+.scene8_cartain1 {
+    animation: Transform_y .3s 29.9s forwards;
 }
 
-@keyframes Transform_y {
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+.scene8_cartain2 {
+    animation: scene7_cartain2 .3s 29.9s forwards;
 }
 
-@keyframes Transform_x {
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+.scene8_cartain1 p:nth-child(1) {
+    animation: scene7_txt1 .5s 30.6s forwards;
 }
 
-@keyframes scene1_rect_red {
-    20% {
-        transform: scale(1.2) rotate(90deg);
-    }
-
-    100% {
-        transform: scale(1);
-        background: red;
-        opacity: 0;
-    }
+.scene8_txt2 span:nth-child(1) {
+    animation: scene7_txt2-1 .2s 30.8s forwards;
 }
 
-@keyframes scene1_rect_red2 {
-    20% {
-        transform: scale(1.2) rotate(-90deg);
-    }
-
-    100% {
-        transform: scale(1);
-        background: red;
-        opacity: 0;
-    }
+.scene8_txt2 span:nth-child(2) {
+    animation: scene7_txt2-2 .2s 31s forwards;
 }
 
-@keyframes scene1_rect_red3 {
-    100% {
-        transform: rotate(180deg);
-        background: red;
-        opacity: 0;
-    }
+.scene8_txt2 span:nth-child(3) {
+    animation: scene7_txt2-1 .2s 31.2s forwards;
 }
 
-@keyframes scene1_rect_red4 {
-    100% {
-        transform: rotate(-180deg);
-        background: red;
-        opacity: 0;
-    }
+.scene8_txt2 span:nth-child(4) {
+    animation: scene7_txt2-2 .2s 31.4s forwards;
+}
+
+.scene8_txt2 span:nth-child(5) {
+    animation: scene7_txt2-1 .2s 31.6s forwards;
+}
+
+.scene8_txt2 span:nth-child(6) {
+    animation: scene7_txt2-2 .2s 31.8s forwards;
+}
+
+.scene8_txt3 span:nth-child(1) {
+    animation: scene8_txt3-1 1s ease-in 30.9s forwards;
+}
+
+.scene8_txt3 span:nth-child(2) {
+    animation: scene8_txt3-2 1s ease-in 31.1s forwards;
+}
+
+.scene8_txt3 span:nth-child(3) {
+    animation: scene8_txt3-3 1s ease-in 31.3s forwards;
+}
+
+.scene8_txt3 span:nth-child(4) {
+    animation: scene8_txt3-4 1s ease-in 31.5s forwards;
+}
+
+.scene9 {
+    animation: slideIn_y .5s 32.2s forwards;
+}
+
+.scene9_clock img {
+    animation: clock_move .2s 32.45s forwards;
+}
+
+.scene9_long {
+    animation: clock_move_long 4s linear 32.5s forwards;
+}
+
+.scene9_short {
+    animation: clock_move_short 4s linear 32.5s forwards;
+}
+
+.scene9_txt1 {
+    animation: scene9_txt1 .5s 32.4s forwards;
+}
+
+.scene9_txt1 p {
+    animation: scene9_txt2 .4s 32.7s forwards;
+}
+
+.scene9_txt2 {
+    animation: scene9_txt1 .5s 33.7s forwards;
+}
+
+.scene9_txt2 p {
+    animation: scene9_txt2 .4s 34s forwards;
+}
+
+.scene10 {
+    animation: slideIn_x .4s 35.3s forwards, blur_out 1.2s 38.7s forwards;
+}
+
+.scene10_txt1 p span:nth-child(1) {
+    animation: scene10_txt1 .4s 35.6s forwards;
+}
+
+.scene10_txt1 p span:nth-child(2) {
+    animation: scene10_txt1 .4s 36.23s forwards;
+}
+
+.scene10_txt1 p span:nth-child(3) {
+    animation: scene10_txt1 .4s 36.52s forwards;
+}
+
+.scene10_txt1 {
+    animation: scene10_txt_rotate .25s 37.35s forwards;
+}
+
+.scene10_picture img {
+    animation: scene10_img_rotate .3s 37.2s forwards;
+}
+
+.scene10_txt2 p {
+    animation: scene10_txt2 1.2s 37.1s forwards;
+}
+
+.scene11 {
+    animation: blur_in .1s 38.5s forwards;
+}
+
+.scene11to12 {
+    animation: scene-trs-beat 1.2s 38.6s forwards;
+}
+
+.scene11to12-sub {
+    animation: scene-trs-beat-sub 1.2s 38.6s forwards;
+}
+
+.scene12_cartain1 {
+    animation: Transform_y .3s 39.5s forwards, blur_out 1.5s 42s forwards;
+}
+
+.scene12_cartain2 {
+    animation: scene7_cartain2 .3s 39.5s forwards, blur_out 1.5s 42s forwards;
+}
+
+.scene12_cartain2 p:nth-child(1) {
+    animation: scene7_txt1 .5s 40.2s forwards;
+}
+
+.scene12_txt2 span:nth-child(1) {
+    animation: scene7_txt2-1 .2s 40.4s forwards;
+}
+
+.scene12_txt2 span:nth-child(2) {
+    animation: scene7_txt2-2 .2s 40.6s forwards;
+}
+
+.scene12_txt2 span:nth-child(3) {
+    animation: scene7_txt2-1 .2s 40.8s forwards;
+}
+
+.scene12_txt2 span:nth-child(4) {
+    animation: scene7_txt2-2 .2s 41s forwards;
+}
+
+.scene12_txt2 span:nth-child(5) {
+    animation: scene7_txt2-1 .2s 41.2s forwards;
+}
+
+.scene12_txt2 span:nth-child(6) {
+    animation: scene7_txt2-2 .2s 41.4s forwards;
+}
+
+.scene12_txt2 span:nth-child(7) {
+    animation: scene7_txt2-1 .2s 41.6s forwards;
+}
+
+.scene12_txt2 span:nth-child(8) {
+    animation: scene7_txt2-2 .2s 41.8s forwards;
+}
+
+.scene12_txt3 span:nth-child(1) {
+    animation: scene7_txt3-1 .8s ease-in 40.7s forwards;
+}
+
+.scene12_txt3 span:nth-child(2) {
+    animation: scene7_txt3-2 .8s ease-in 41.3s forwards;
+}
+
+.scene12to13 {
+    animation: scene-trs-beat 1.2s 41.6s forwards;
+}
+
+.scene12to13-sub {
+    animation: scene-trs-beat-sub 1.2s 41.6s forwards;
+}
+
+.scene13_cartain1 {
+    animation: Transform_y .3s 42.7s forwards;
+}
+
+.scene13_cartain2 {
+    animation: scene7_cartain2 .3s 42.7s forwards;
+}
+
+.scene13_cartain1 p:nth-child(1) {
+    animation: scene7_txt1 .5s 43.4s forwards;
+}
+
+.scene13_txt2 span:nth-child(1) {
+    animation: scene7_txt2-1 .2s 43.6s forwards;
+}
+
+.scene13_txt2 span:nth-child(2) {
+    animation: scene7_txt2-2 .2s 43.8s forwards;
+}
+
+.scene13_txt2 span:nth-child(3) {
+    animation: scene7_txt2-1 .2s 44s forwards;
+}
+
+.scene13_txt2 span:nth-child(4) {
+    animation: scene7_txt2-2 .2s 44.2s forwards;
+}
+
+.scene13_txt2 span:nth-child(5) {
+    animation: scene7_txt2-1 .2s 44.4s forwards;
+}
+
+.scene13_txt2 span:nth-child(6) {
+    animation: scene7_txt2-2 .2s 44.6s forwards;
+}
+
+.scene13_txt2 span:nth-child(7) {
+    animation: scene7_txt2-1 .2s 44.8s forwards;
+}
+
+.scene13_txt3 span:nth-child(1) {
+    animation: scene8_txt3-1 1s ease-in 43.7s forwards;
+}
+
+.scene13_txt3 span:nth-child(2) {
+    animation: scene8_txt3-2 1s ease-in 43.9s forwards;
+}
+
+.scene13_txt3 span:nth-child(3) {
+    animation: scene8_txt3-3 1s ease-in 44.1s forwards;
+}
+
+.scene13_txt3 span:nth-child(4) {
+    animation: scene8_txt3-4 1s ease-in 44.3s forwards;
+}
+
+.cartain13to14_down1 {
+    animation: cartain13to14 .3s 45s forwards;
+}
+
+.cartain13to14_down2 {
+    animation: cartain13to14 .3s 45s forwards;
+}
+
+.scene14 {
+    animation: Fade_in2 .1s 45.1s forwards;
+}
+
+.scene14_background1 > img {
+    animation: scene14_background1 4s linear 45.3s forwards;
+}
+
+.scene14_background2 > img {
+    animation: scene14_background1 4s linear 46.3s forwards;
+}
+
+.scene14_background3 > img {
+    animation: scene14_background1 4s linear 48.7s forwards;
+}
+
+.scene14_background4 > img {
+    animation: scene14_background1 4s linear 51.8s forwards;
+}
+
+.scene14_background5 > img {
+    animation: scene14_background1 4s linear 53.8s forwards;
+}
+
+.scene14_background6 > img {
+    animation: scene14_background1 4s linear 56.2s forwards;
+}
+
+.scene14_txt1 p:nth-child(1) {
+    animation: scene14_txt1-1 .7s 44.9s forwards, blur_out .5s 46.5s forwards;
+}
+
+.scene14_txt1 p:nth-child(2) {
+    animation: scene14_txt1-2 .7s 45.1s forwards, blur_out .5s 46.5s forwards;
+}
+
+.scene14_txt1 p:nth-child(3) {
+    animation: scene14_txt1-3 .7s 45.3s forwards, blur_out .5s 46.5s forwards;
+}
+
+.scene14_txt1 p:nth-child(4) {
+    animation: scene14_txt1-4 .7s 45.5s forwards, blur_out .5s 46.5s forwards;
+}
+
+.scene14_txt1 p:nth-child(5) {
+    animation: scene14_txt1-5 .7s 45.7s forwards, blur_out .5s 46.5s forwards;
+}
+
+.scene14_txt1 p:nth-child(6) {
+    animation: scene14_txt1-6 .7s 45.9s forwards, blur_out .5s 46.5s forwards;
+}
+
+.scene14_txt1 {
+    animation: scene14_background1 4s linear 45s forwards;
+}
+
+.scene14_txt2 p:nth-child(1) {
+    animation: scene14_txt2-1 .7s 46.7s forwards, blur_out .5s 48.5s forwards;
+}
+
+.scene14_txt2 p:nth-child(2) {
+    animation: scene14_txt2-2 .7s 46.9s forwards, blur_out .5s 48.5s forwards;
+}
+
+.scene14_txt2 p:nth-child(3) {
+    animation: scene14_txt2-3 .7s 47.1s forwards, blur_out .5s 48.5s forwards;
+}
+
+.scene14_txt2 p:nth-child(4) {
+    animation: scene14_txt2-4 .7s 47.3s forwards, blur_out .5s 48.5s forwards;
+}
+
+.scene14_txt2 p:nth-child(5) {
+    animation: scene14_txt2-5 .7s 47.5s forwards, blur_out .5s 48.5s forwards;
+}
+
+.scene14_txt2 p:nth-child(6) {
+    animation: scene14_txt2-6 .7s 47.7s forwards, blur_out .5s 48.5s forwards;
+}
+
+.scene14_txt2 {
+    animation: scene14_background1 4s linear 47.1s forwards;
+}
+
+.scene14_txt3 p:nth-child(1) {
+    animation: scene14_txt3-1 .7s 48.6s forwards, blur_out .5s 50.6s forwards;
+}
+
+.scene14_txt3 p:nth-child(2) {
+    animation: scene14_txt3-2 .7s 48.8s forwards, blur_out .5s 50.6s forwards;
+}
+
+.scene14_txt3 p:nth-child(3) {
+    animation: scene14_txt3-3 .7s 49s forwards, blur_out .5s 50.6s forwards;
+}
+
+.scene14_txt3 p:nth-child(4) {
+    animation: scene14_txt3-4 .7s 49.2s forwards, blur_out .5s 50.6s forwards;
+}
+
+.scene14_txt3 p:nth-child(5) {
+    animation: scene14_txt3-5 .7s 49.4s forwards, blur_out .5s 50.6s forwards;
+}
+
+.scene14_txt3 p:nth-child(6) {
+    animation: scene14_txt3-6 .7s 49.6s forwards, blur_out .5s 50.6s forwards;
+}
+
+.scene14_txt3 p:nth-child(7) {
+    animation: scene14_txt3-7 .7s 49.8s forwards, blur_out .5s 50.6s forwards;
+}
+
+.scene14_txt3 {
+    animation: scene14_background1 4s linear 49.3s forwards;
+}
+
+.scene14_txt4 p:nth-child(1) {
+    animation: scene14_txt4-1 .7s 51.6s forwards, blur_out .5s 54.5s forwards;
+}
+
+.scene14_txt4 p:nth-child(2) {
+    animation: scene14_txt4-2 .7s 51.8s forwards, blur_out .5s 54.5s forwards;
+}
+
+.scene14_txt4 p:nth-child(3) {
+    animation: scene14_txt4-3 .7s 52s forwards, blur_out .5s 54.5s forwards;
+}
+
+.scene14_txt4 p:nth-child(4) {
+    animation: scene14_txt4-4 .7s 52.2s forwards, blur_out .5s 54.5s forwards;
+}
+
+.scene14_txt4 p:nth-child(5) {
+    animation: scene14_txt4-5 .7s 52.4s forwards, blur_out .5s 54.5s forwards;
+}
+
+.scene14_txt4 p:nth-child(6) {
+    animation: scene14_txt4-6 .7s 52.6s forwards, blur_out .5s 54.5s forwards;
+}
+
+.scene14_txt4 {
+    animation: scene14_background1 4s linear 52.2s forwards;
+}
+
+.scene14_txt5 p:nth-child(1) {
+    animation: scene14_txt3-1 .7s 53.8s forwards, blur_out .5s 56s forwards;
+}
+
+.scene14_txt5 p:nth-child(2) {
+    animation: scene14_txt3-2 .7s 54s forwards, blur_out .5s 56s forwards;
+}
+
+.scene14_txt5 p:nth-child(3) {
+    animation: scene14_txt3-3 .7s 54.2s forwards, blur_out .5s 56s forwards;
+}
+
+.scene14_txt5 p:nth-child(4) {
+    animation: scene14_txt3-4 .7s 54.4s forwards, blur_out .5s 56s forwards;
+}
+
+.scene14_txt5 p:nth-child(5) {
+    animation: scene14_txt3-5 .7s 54.6s forwards, blur_out .5s 56s forwards;
+}
+
+.scene14_txt5 p:nth-child(6) {
+    animation: scene14_txt3-6 .7s 54.8s forwards, blur_out .5s 56s forwards;
+}
+
+.scene14_txt5 {
+    animation: scene14_background1 4s linear 54.4s forwards;
+}
+
+.scene14_txt6 p:nth-child(1) {
+    animation: scene14_txt6-1 .7s 55.7s forwards, blur_out .5s 58.1s forwards;
+}
+
+.scene14_txt6 p:nth-child(2) {
+    animation: scene14_txt6-2 .7s 55.9s forwards, blur_out .5s 58.1s forwards;
+}
+
+.scene14_txt6 p:nth-child(3) {
+    animation: scene14_txt6-3 .7s 56.1s forwards, blur_out .5s 58.1s forwards;
+}
+
+.scene14_txt6 p:nth-child(4) {
+    animation: scene14_txt6-4 .7s 56.3s forwards, blur_out .5s 58.1s forwards;
+}
+
+.scene14_txt6 p:nth-child(5) {
+    animation: scene14_txt6-5 .7s 56.5s forwards, blur_out .5s 58.1s forwards;
+}
+
+.scene14_txt6 p:nth-child(6) {
+    animation: scene14_txt6-6 .7s 56.7s forwards, blur_out .5s 58.1s forwards;
+}
+
+.scene14_txt6 p:nth-child(7) {
+    animation: scene14_txt6-6 .7s 56.9s forwards, blur_out .5s 58.1s forwards;
+}
+
+.scene14_txt6 {
+    animation: scene14_background1 4s linear 56.5s forwards;
+}
+
+.face2 {
+    animation: Fade_in2 0.1s step-start 51.35s forwards, Fade_out2 .1s step-start 52.3s forwards, Fade_in2 0.1s step-start 58.7s forwards;
+}
+
+.face3 {
+    animation: Fade_in2 0.1s 51.85s forwards, Fade_out2 .1s step-start 52.3s forwards, Fade_in2 0.1s step-start 59.2s forwards;
+}
+
+.scene14_svgtxt1 {
+    animation: scene14_svg-bg 1.5s steps(3, end) 50.85s, scene14_svg-bg 1.5s steps(3, end) 57.51s;
+}
+
+.scene14_svgtxt1-1 {
+    animation: scene14_svg-txt 0.5s step-end 50.55s forwards, Fade_out2 0.7s step-end 51.82s forwards, scene14_svg-txt 0.5s step-end 57.81s forwards;
+}
+
+.scene14_svgtxt1-2 {
+    animation: scene14_svg-txt 0.5s step-end 51s forwards, Fade_out2 0.7s step-end 51.82s forwards, scene14_svg-txt 0.5s step-end 58.1s forwards;
+}
+
+.scene14_svgtxt1-3 {
+    animation: scene14_svg-txt 0.5s step-end 51.35s forwards, Fade_out2 0.7s step-end 51.82s forwards, scene14_svg-txt 0.5s step-end 58.35s forwards;
+}
+
+.scene14_svg-bg1 {
+    animation: scene2_op-bg 0.5s step-end 50.55s forwards, Fade_out2 0.7s step-end 51.82s forwards, scene2_op-bg 0.5s step-end 57.81s forwards;
+}
+
+.scene14_svg-bg2 {
+    animation: scene2_op-bg 0.5s step-end 51.04s forwards, Fade_out2 0.7s step-end 51.82s forwards, scene2_op-bg 0.5s step-end 58.1s forwards;
+}
+
+.scene14_svg-bg3 {
+    animation: scene2_op-bg 0.5s step-end 51.53s forwards, Fade_out2 0.7s step-end 51.82s forwards, scene2_op-bg 0.5s step-end 58.5s forwards;
+}
+
+.scene14_suna-container > div:nth-child(1) {
+    animation: suna-in 0.5s step-end 58.8s forwards;
+}
+
+.scene14_suna-container > div:nth-child(4) {
+    animation: suna-in 0.5s step-end 60.7s forwards;
+}
+
+.scene14_suna-container > div:nth-child(3) {
+    animation: suna-in 0.5s step-end 62.2s forwards;
+}
+
+.scene14_suna-container > div:nth-child(2) {
+    animation: suna-in 0.5s step-end 63.8s forwards;
+}
+
+.scene14_suna-container div:nth-child(1) > img {
+    animation: Fade_out2 2.5s 59.3s forwards;
+}
+
+.scene14_suna-container div:nth-child(4) > img {
+    animation: Fade_out2 2.5s 60.5s forwards;
+}
+
+.scene14_suna-container div:nth-child(3) > img {
+    animation: Fade_out2 2.5s 62s forwards;
+}
+
+.scene14_suna-container div:nth-child(2) > img {
+    animation: Fade_out2 2.5s 64.1s forwards;
+}
+
+.scene15_cartain1 {
+    animation: scene3_cartain1 .3s 65.8s forwards;
+}
+
+.scene15_cartain4 {
+    animation: scene3_cartain1 .3s 66.1s forwards;
+}
+
+.scene15_cartain2 {
+    animation: scene3_cartain2 .3s 66.4s forwards;
+}
+
+.scene15_cartain3 {
+    animation: scene3_cartain2 .3s 66.65s forwards;
+}
+
+.scene16 {
+    animation: slideIn_y .3s 66.7s forwards;
+}
+
+.scene16_main-img {
+    animation: scene16_main-img1 2.2s cubic-bezier(0.1, 1.09, 0.71, 0.96) 67.5s forwards, scene16_main-img2 1.5s cubic-bezier(0.13, 1.15, 0.52, 0.96) 69.7s forwards, scene16_main-img3 1.5s 72.2s forwards;
+}
+
+.scene16_txt1 {
+    animation: scene16_txt1-1 0.8s 67.5s forwards, scene16_txt1-2 0.5s 69.7s forwards;
+}
+
+.scene16_txt2 {
+    animation: scene16_txt2 .3s 69.7s forwards, scene16_txt2-out .3s 70.5s forwards;
+}
+
+.scene16_txt3 {
+    animation: scene16_txt3 .3s 70s forwards, scene16_txt3-out .3s 70.5s forwards;
+}
+
+.scene16_txt4 {
+    animation: scene16_txt4 1s 71s forwards;
+}
+
+.scene16_txt5 {
+    animation: scene16_txt4 1s 71.2s forwards;
+}
+
+.scene16_txt6 {
+    animation: scene16_txt4 1s 71.4s forwards;
+}
+
+.scene16_txt7 {
+    animation: scene16_txt4 1s 71.6s forwards;
+}
+
+.scene16_txt8 {
+    animation: scene16_txt8 1s ease-in-out 72.2s forwards;
+}
+
+.scene16_txt9 {
+    animation: scene16_txt8 1s ease-in-out 72.6s forwards;
+}
+
+.scene16_txt10 {
+    animation: scene16_txt8 1s ease-in-out 72.9s forwards;
+}
+
+.scene16_txt11 {
+    animation: scene16_txt8 1s ease-in-out 73.1s forwards;
+}
+
+.scene16_txt12 {
+    animation: scene16_txt8 1s ease-in-out 73.3s forwards;
+}
+
+.scene16_txt13 {
+    animation: scene16_txt8 1s ease-in-out 73.45s forwards;
+}
+
+.scene16_rect1 {
+    animation: scene16_rect1 1s ease-in-out 72.4s forwards
+}
+
+.scene16_rect2 {
+    animation: scene16_rect1 1s ease-in-out 73s forwards
+}
+
+.scene16_rect3 {
+    animation: scene16_rect1 1s ease-in-out 73.2s forwards
+}
+
+.scene16_rect4 {
+    animation: scene16_rect1 1s ease-in-out 73.3s forwards
+}
+
+.scene16_img-bg_container {
+    animation: scene16_img-bg_in 1.5s ease 72.8s forwards;
+}
+
+.scene16_txt14 p:nth-child(1) {
+    animation: scene16_txt14 .2s 74s forwards, Fade_out2 .1s ease 76.4s forwards;
+}
+
+.scene16_txt14 p:nth-child(2) {
+    animation: scene16_txt14 .2s 74s forwards, Fade_out2 .1s ease 76.4s forwards;
+}
+
+.scene16_txt14 p:nth-child(3) {
+    animation: scene16_txt14 .2s 74s forwards, Fade_out2 .1s ease 76.4s forwards;
+}
+
+.scene16_txt15 p:nth-child(1) {
+    animation: scene16_txt14 .2s 74.7s forwards, Fade_out2 .1s ease 76.4s forwards;
+}
+
+.scene16_txt15 p:nth-child(2) {
+    animation: scene16_txt14 .2s 74.7s forwards, Fade_out2 .1s ease 76.4s forwards;
+}
+
+.scene16_txt15 p:nth-child(3) {
+    animation: scene16_txt14 .2s 74.7s forwards, Fade_out2 .1s ease 76.4s forwards;
+}
+
+.scene16_txt16 {
+    animation: scene16_txt16 1s 75.4s forwards, scene16_txt16-out .2s 76.4s forwards;
+}
+
+.scene16_txt17 {
+    animation: scene16_txt16 1s 75.4s forwards, scene16_txt17-out .2s 76.4s forwards;
+}
+
+.scene16_img_rect1 {
+    animation: scene16_img_rect1 1s 75.4s forwards;
+}
+
+.scene16_img_rect2 {
+    animation: scene16_img_rect2 1s 75.4s forwards;
+}
+
+.scene16_img_rect3 {
+    animation: scene16_img_rect3 1s 75.4s forwards;
+}
+
+.scene16_img_rect4 {
+    animation: scene16_img_rect4 1s 75.4s forwards;
+}
+
+.scene16_img_rect5 {
+    animation: scene16_img_rect5 1s 75.4s forwards;
+}
+
+.scene16_img-chara {
+    animation: Fade_in2 .1s ease 75.8s forwards;
+}
+
+.scene16_txt18 {
+    animation: scene16_txt18 1.5s 76.4s forwards;
+}
+
+.scene19_cartain1 {
+    animation: scene19_cartain1 1s 78.5s forwards;
+}
+
+.scene19_cartain2 {
+    animation: scene19_cartain1 1s 78.8s forwards;
+}
+
+.scene19_cartain3 {
+    animation: scene19_cartain1 1s 79.1s forwards;
+}
+
+.scene19_cartain4 {
+    animation: scene19_cartain1 1s 78.5s forwards;
+}
+
+.scene19_cartain5 {
+    animation: scene19_cartain1 1s 78.8s forwards;
+}
+
+.scene19_cartain6 {
+    animation: scene19_cartain1 1s 79.1s forwards;
+}
+
+.scene20_main-img {
+    animation: scene20_main-img 3s ease-out 80.3s forwards, scene20_main-img2 1.5s cubic-bezier(0.13, 1.15, 0.52, 0.96) 82.7s forwards, scene20_main-img3 1.5s 85s forwards;
+}
+
+.scene20_txt1 {
+    animation: scene16_txt1-1 0.8s 80.1s forwards, scene16_txt1-2 0.5s 82.6s forwards;
+}
+
+.scene20_txt2 {
+    animation: scene20_txt2 .3s 82.7s forwards, scene20_txt2-out .3s 83.6s forwards;
+}
+
+.scene20_txt3 {
+    animation: scene20_txt3 .3s 83s forwards, scene20_txt3-out .3s 83.6s forwards;
+}
+
+.scene20_txt4 {
+    animation: scene20_txt4 1s 83.6s forwards;
+}
+
+.scene20_txt5 {
+    animation: scene20_txt4 1s 83.8s forwards;
+}
+
+.scene20_txt6 {
+    animation: scene20_txt4 1s 84s forwards;
+}
+
+.scene20_txt7 {
+    animation: scene20_txt4 1s 84.2s forwards;
+}
+
+.scene20_txt8 {
+    animation: scene20_txt8 1s ease-in-out 84.8s forwards;
+}
+
+.scene20_txt9 {
+    animation: scene20_txt8 1s ease-in-out 85.2s forwards;
+}
+
+.scene20_txt10 {
+    animation: scene20_txt8 1s ease-in-out 85.5s forwards;
+}
+
+.scene20_txt11 {
+    animation: scene20_txt8 1s ease-in-out 85.7s forwards;
+}
+
+.scene20_txt12 {
+    animation: scene20_txt8 1s ease-in-out 85.9s forwards;
+}
+
+.scene20_txt13 {
+    animation: scene20_txt8 1s ease-in-out 86.05s forwards;
+}
+
+.scene20_rect1 {
+    animation: scene20_rect1 1s ease-in-out 85s forwards
+}
+
+.scene20_rect2 {
+    animation: scene20_rect1 1s ease-in-out 85.6s forwards
+}
+
+.scene20_rect3 {
+    animation: scene20_rect1 1s ease-in-out 85.8s forwards
+}
+
+.scene20_rect4 {
+    animation: scene20_rect1 1s ease-in-out 85.9s forwards
+}
+
+.scene20_txt14 p:nth-child(1) {
+    animation: scene16_txt14 .2s 86.6s forwards, Fade_out2 .1s ease 89s forwards;
+}
+
+.scene20_txt14 p:nth-child(2) {
+    animation: scene16_txt14 .2s 86.6s forwards, Fade_out2 .1s ease 89s forwards;
+}
+
+.scene20_txt14 p:nth-child(3) {
+    animation: scene16_txt14 .2s 86.6s forwards, Fade_out2 .1s ease 89s forwards;
+}
+
+.scene20_txt15 p:nth-child(1) {
+    animation: scene16_txt14 .2s 87.3s forwards, Fade_out2 .1s ease 89s forwards;
+}
+
+.scene20_txt15 p:nth-child(2) {
+    animation: scene16_txt14 .2s 87.3s forwards, Fade_out2 .1s ease 89s forwards;
+}
+
+.scene20_txt15 p:nth-child(3) {
+    animation: scene16_txt14 .2s 87.3s forwards, Fade_out2 .1s ease 89s forwards;
+}
+
+.scene20_img-bg_container {
+    animation: scene16_img-bg_in 1.5s ease 85.4s forwards;
+}
+
+.clip1 {
+    animation: clip1 2s ease-out 88s forwards;
 }
 
 
-@keyframes scene1_txt_top-right {
-    100% {
-        transform: translate(-18px, 18px);
-        filter: blur(2px);
-        opacity: 0;
-    }
+.clip2 {
+    animation: clip2 2s ease-out 88s forwards;
 }
 
-@keyframes scene1_txt_bottom-left {
-    100% {
-        transform: translate(18px, -18px);
-        filter: blur(2px);
-        opacity: 0;
-    }
+.scene20_img-chara {
+    animation: Fade_in2 .1s ease 88.5s forwards;
 }
 
-@keyframes scene1_circle1_move1 {
-    85% {
-        width: 240px;
-        height: 240px;
-    }
-
-    100% {
-        width: 150px;
-        height: 150px;
-    }
+.scene20_img_rect1 {
+    animation: scene20_img_rect1 1s ease 88s forwards;
 }
 
-@keyframes scene1_circle1_move2 {
-    100% {
-        width: max(150vh, 150vw);
-        height: max(150vh, 150vw);
-        opacity: 1;
-    }
+.scene20_txt16 {
+    animation: scene20_txt16 1s ease 88s forwards, scene20_txt16-out .2s ease 89s forwards;
+    ;
 }
 
-@keyframes scene1_circle1_move3 {
-    100% {
-        width: 100vw;
-        height: 100vh;
-        border-radius: 0;
-    }
+.scene20_txt17 {
+    animation: scene20_txt16 1s ease 88s forwards, scene20_txt16-out .2s ease 89s forwards;
 }
 
-@keyframes scene1_txt5 {
-    50% {
-        opacity: .8;
-        transform: translateY(0);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateY(32px);
-    }
+.scene20_txt18 {
+    animation: scene16_txt18 2s 89s forwards;
 }
 
-@keyframes scene2_op-img {
-    100% {
-        transform: rotate(20deg) translateX(20px) scale(1);
-        opacity: 1;
-    }
+.scene21_cartain1 {
+    animation: scene21_cartain1 1s 91s forwards;
 }
 
-@keyframes scene2_op-img2 {
-    0 {
-        transform: rotate(20deg) translateX(20px) scale(1);
-    }
+.scene21_cartain2 {
+    animation: scene21_cartain1 1s 91.3s forwards;
+}
 
-    100% {
-        transform: rotate(30deg) translateX(20px) scale(1);
-    }
+.scene21_cartain3 {
+    animation: scene21_cartain1 1s 91.6s forwards;
+}
+
+.scene22 {
+    animation: Fade_in 1.6s 91s forwards;
+}
+
+.scene23_main-img img {
+    animation: Fade_in2 2s 91.6s forwards, scene23_main-img-out .2s 99.6s forwards;
+}
+
+.scene23_txt1 {
+    animation: scene23_txt1 .3s 93.2s forwards, scene23_txt1-2 0.3s ease-in 95.5s forwards;
+}
+
+.scene23_txt4 {
+    animation: scene23_txt1 .3s 93.2s forwards, scene23_txt1-2 0.3s ease-in 95.5s forwards;
+}
+
+.scene23_txt2 {
+    animation: scene23_txt1 .3s 93.5s forwards, scene23_txt1-2 0.3s ease-in 95.5s forwards;
+}
+
+.scene23_txt3 {
+    animation: scene23_txt1 .3s 93.5s forwards, scene23_txt1-2 0.3s ease-in 95.5s forwards;
+}
+
+.scene23_txt5 {
+    animation: scene23_txt5 .3s 93.9s forwards, scene23_txt5-out .3s 95.5s forwards;
+}
+
+.scene23_txt6 {
+    animation: scene23_txt6 .3s 94s forwards, scene23_txt6-out .3s 95.5s forwards;
+}
+
+.scene23_txt7 {
+    animation: scene23_txt7 .3s 94.1s forwards, scene23_txt7-out .3s 95.5s forwards;
+}
+
+.scene23_txt8 {
+    animation: scene23_txt8 .3s 94.2s forwards, scene23_txt8-out .3s 95.5s forwards;
+}
+
+.scene23_txt9 {
+    animation: scene23_txt9 .3s 94.3s forwards, scene23_txt9-out .3s 95.5s forwards;
+}
+
+.scene23_txt10 {
+    animation: scene23_txt10 .3s 95.5s forwards, scene23_txt10-out .3s 96.4s forwards;
+}
+
+.scene23_txt11 {
+    animation: scene23_txt11 .3s 95.8s forwards, scene23_txt11-out .3s 96.4s forwards;
+}
+
+.scene23_rect1 {
+    animation: scene23_rect1 1s 93.9s forwards, scene23_rect1-out .3s 95.5s forwards;
+}
+
+.scene23_txt12 {
+    animation: scene23_txt12 .5s 96.4s forwards, scene23_txt12-out .5s linear 97.8s forwards;
+}
+
+.scene23_txt13 {
+    animation: scene23_txt12 .5s 96.7s forwards, scene23_txt12-out .5s linear 97.8s forwards;
+}
+
+.scene23_txt14 {
+    animation: scene23_txt12 .5s 97s forwards, scene23_txt12-out .5s linear 97.8s forwards;
+}
+
+.scene23_txt15 {
+    animation: scene23_txt12 .5s 97.3s forwards, scene23_txt12-out .5s linear 97.8s forwards;
+}
+
+.scene23_txt16 {
+    animation: scene16_txt8 1s ease-in-out 97.8s forwards;
+}
+
+.scene23_txt17 {
+    animation: scene16_txt8 1s ease-in-out 98.2s forwards;
+}
+
+.scene23_txt18 {
+    animation: scene16_txt8 1s ease-in-out 98.5s forwards;
+}
+
+.scene23_txt19 {
+    animation: scene16_txt8 1s ease-in-out 98.7s forwards;
+}
+
+.scene23_txt20 {
+    animation: scene16_txt8 1s ease-in-out 98.9s forwards;
+}
+
+.scene23_txt21 {
+    animation: scene16_txt8 1s ease-in-out 99.05s forwards;
+}
+
+.scene23_img1 {
+    animation: scene23_img1 1s ease-in-out 98s forwards;
+}
+
+.scene23_img2 {
+    animation: scene23_img2 1s ease-in-out 98.4s forwards;
+}
+
+.scene23_img3 {
+    animation: scene23_img3 1s ease-in-out 98.6s forwards;
+}
+
+.scene23_img4 {
+    animation: scene23_img4 1s ease-in-out 98.8s forwards;
+}
+
+.scene24 {
+    animation: scene24 .2s 99.7s forwards;
+}
+
+.scene24_img2,
+.scene24_txt2 {
+    animation: Fade_in2 0.1s ease 101s forwards, Fade_out2 3s linear 104.5s forwards;
+    ;
+}
+
+.scene24_img,
+.scene24_txt1 {
+    animation: Fade_out2 0.1s 102s forwards;
+}
+
+.scene25_main_txt {
+    animation: scene25_txt1 3s ease-out 104.5s forwards, Fade_out2 0.01s 111.2s forwards;
+}
+
+.scene24to25 div:nth-child(1) div {
+    animation: scene24to25_1 .6s ease 100.8s forwards;
+}
+
+.scene24to25 div:nth-child(2) div {
+    animation: scene24to25_2 .6s ease 100.8s forwards;
 }
 
 
-@keyframes scene2_op-name {
-    100% {
-        letter-spacing: -2px;
-        transform: scale(1);
-        opacity: 1;
-    }
+.scene25_wave_container {
+    animation: Fade_in2 3s linear 104.5s forwards;
 }
 
-@keyframes scene2_op-line {
-    100% {
-        transform: translate(-35%, -890%) scaleX(1);
-    }
+.scene25_op-wave,
+.scene25_op-wave2 {
+    animation: scene2_op-wave 0.1s ease 103.5s forwards;
 }
 
-@keyframes scene2_op-wave {
-    100% {
-        visibility: visible;
-    }
+
+.scene25_line1 {
+    animation: Fade_in2 3s linear 104.5s forwards;
 }
 
-@keyframes scene2_effect-1 {
-    100% {
-        transform: translate(-50%, 0%) scale(0, 1);
-    }
+.scene25_line2 {
+    animation: Fade_in2 3s linear 104.5s forwards;
 }
 
-@keyframes scene2_effect-2 {
-    100% {
-        transform: translate(0%, -50%) scale(1, 0);
-    }
+.scene25_rect1 {
+    animation: scene25_rect1 0.75s 106s forwards, scene25_rect1-out .8s 107.8s forwards;
 }
 
-@keyframes scene2_effect-3 {
-    100% {
-        transform: translate(-50%, 0%) scale(0, 1);
-    }
+.scene25_rect2 {
+    animation: scene25_rect1 0.75s 106.75s forwards, scene25_rect1-out2 .8s 107.8s forwards;
 }
 
-@keyframes scene2_effect-4 {
-    100% {
-        transform: translate(0%, -50%) scale(1, 0);
-    }
+.scene25_rect3 div {
+    animation: scene25_rect3 .8s 110.8s forwards;
 }
 
-@keyframes scene3_cartain1 {
-    100% {
-        transform: skewX(-30deg) translateY(0);
-    }
+.scene25_rect5 {
+    animation: scene25_rect1 0.75s 109.75s forwards, scene25_rect1-out .8s 110.8s forwards;
 }
 
-@keyframes scene3_cartain2 {
-    100% {
-        transform: skewX(23deg) translateY(0);
-    }
+.scene25_rect4 {
+    animation: scene25_rect1 0.75s 109s forwards, scene25_rect1-out2 .8s 110.8s forwards;
 }
 
-@keyframes slideIn {
-    100% {
-        top: 0;
-    }
+.scene25_rect6 {
+    animation: scene25_rect1 0.75s 112.85s forwards, scene25_rect1-out .8s 113.9s forwards;
 }
 
-@keyframes scale_x1 {
-    100% {
-        transform: scaleX(2);
-    }
+.scene25_rect7 {
+    animation: scene25_rect1 0.75s 112.1s forwards, scene25_rect1-out2 .8s 113.9s forwards;
 }
 
-@keyframes apple_move {
-    30% {
-        transform: translate(-50%, calc(-50% - 10vh)) rotate(-25deg);
-    }
+.scene25_rect8 {
+    animation: scene25_rect1 0.75s 115.85s forwards, scene25_rect1-out .8s 116.9s forwards;
+}
 
-    50% {
-        transform: translate(-50%, calc(-50% + 10vh)) rotate(-25deg);
-    }
+.scene25_rect9 {
+    animation: scene25_rect1 0.75s 115.1s forwards, scene25_rect1-out2 .8s 116.9s forwards;
+}
 
-    100% {
-        transform: translate(-50%, calc(100% + 50vh))rotate(-45deg);
-    }
+.scene25_txt_title span:nth-child(1) {
+    animation: Transform_y 0.1s 113.45s forwards, Fade_out2 0.05s 115.35s forwards;
+}
+
+.scene25_txt_title span:nth-child(2) {
+    animation: Transform_y 0.1s 113.4s forwards, Fade_out2 0.05s 115.4s forwards;
+}
+
+.scene25_txt_title span:nth-child(3) {
+    animation: Transform_y 0.1s 113.35s forwards, Fade_out2 0.05s 115.45s forwards;
+}
+
+.scene25_txt_title span:nth-child(4) {
+    animation: Transform_y 0.1s 113.3s forwards, Fade_out2 0.05s 115.5s forwards;
+}
+
+.scene25_txt_title span:nth-child(5) {
+    animation: Transform_y 0.1s 113.25s forwards, Fade_out2 0.05s 115.55s forwards;
+}
+
+.scene25_txt_title span:nth-child(6) {
+    animation: Transform_y 0.1s 113.2s forwards, Fade_out2 0.05s 115.6s forwards;
+}
+
+.scene25_txt_title span:nth-child(7) {
+    animation: Transform_y 0.1s 113.15s forwards, Fade_out2 0.05s 115.7s forwards;
+}
+
+.scene25_txt_title span:nth-child(8) {
+    animation: Transform_y 0.1s 113.1s forwards, Fade_out2 0.05s 115.75s forwards;
+}
+
+.scene25_txt_title span:nth-child(9) {
+    animation: Transform_y 0.1s 113.05s forwards, Fade_out2 0.05s 115.8s forwards;
+}
+
+.scene25_txt_title2 span:nth-child(8) {
+    animation: Transform_y 0.1s 112.7s forwards, Fade_out2 0.05s 116.05s forwards;
+}
+
+.scene25_txt_title2 span:nth-child(7) {
+    animation: Transform_y 0.1s 112.65s forwards, Fade_out2 0.05s 116.1s forwards;
+}
+
+.scene25_txt_title2 span:nth-child(6) {
+    animation: Transform_y 0.1s 112.6s forwards, Fade_out2 0.05s 116.15s forwards;
+}
+
+.scene25_txt_title2 span:nth-child(5) {
+    animation: Transform_y 0.1s 112.55s forwards, Fade_out2 0.05s 116.2s forwards;
+}
+
+.scene25_txt_title2 span:nth-child(4) {
+    animation: Transform_y 0.1s 112.5s forwards, Fade_out2 0.05s 116.25s forwards;
+}
+
+.scene25_txt_title2 span:nth-child(3) {
+    animation: Transform_y 0.1s 112.45s forwards, Fade_out2 0.05s 116.3s forwards;
+}
+
+.scene25_txt_title2 span:nth-child(2) {
+    animation: Transform_y 0.1s 112.4s forwards, Fade_out2 0.05s 116.35s forwards;
+}
+
+.scene25_txt_title2 span:nth-child(1) {
+    animation: Transform_y 0.1s 112.35s forwards, Fade_out2 0.05s 116.4s forwards;
+}
+
+.scene26 div:nth-child(1) {
+    animation: scene26_div 0.3s 117.2s forwards;
+}
+
+.scene26 div:nth-child(2) {
+    animation: scene26_div 0.3s 117.8s forwards;
+}
+
+.scene26 div:nth-child(3) {
+    animation: scene26_div 0.3s 117.8s forwards;
+}
+
+.scene26 div:nth-child(4) {
+    animation: scene26_div 0.3s 117.5s forwards;
+}
+
+.scene26_end p {
+    animation: end 0.3s 118.2s forwards;
 }
